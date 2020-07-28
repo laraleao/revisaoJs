@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleição Municipal</title>
+  </head>
+  <body>
+    <h1>Para o cálculo* dos votos, insira abaixo os valores necessários:</h1>
+
+    <h4 style="color: blueviolet;">*Digite valores inteiros</h4>
+
+    <input
+      type="number"
+      id="total-eleitores"
+      placeholder="Total de Eleitores"
+    />
+
+    <input type="number" id="votos-validos" placeholder="Votos válidos" />
+
+    <input type="number" id="votos-brancos" placeholder="Votos brancos" />
+
+    <input type="number" id="votos-nulos" placeholder="Votos nulos" />
+
+    <button onclick="calcularVotos()" type="submit">
+      Calcule Porcentagem
+    </button>
+
+    <script src="./exercicioMunicipio.js"></script>
+  </body>
+</html>
